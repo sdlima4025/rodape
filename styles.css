@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+.main h1 {
+  background-color: #CCC;
+  width: 100%;
+  height: 200px;
+  font-size: 8vh;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteudo {
+  width: 100%;
+  height: 45.1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteudo h1 {
+  font-size: 15vh;
+  text-transform: uppercase;
+}
+footer {
+  width: 100%;
+  min-height: 250px;
+  background: #444;
+  display: flex;
+}
+.footer h2 {
+  color: #FFF;
+}
+footer .boxs {
+  width: 320px;
+  min-height: 150px;
+  padding: 20px;
+}
+footer .boxs:nth-child(4) {
+  width: 400px;
+}
+.boxs h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+.boxs ul li {
+  margin: 10px 0px;
+  list-style: none;
+}
+.boxs ul li a {
+  color: #ddd;
+  text-decoration: none;
+}
+.boxs ul li a:hover {
+  color: #fff;
+}
+.boxs p {
+  color: #fff;
+  text-align: justify;
+}
+.footer {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  align-items: center;
+  background: #333;
+}
+
+.footer .socias {
+  display: flex;
+}
+.socias .social {
+  width: 40px;
+  height: 40px;
+  background: #DDD;
+  text-align: center;
+  line-height: 40px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background .3s linear;
+}
+.socias .social a {
+  color: #000;
+  font-size: 1.5rem;
+  transition: color .3s linear;
+}
+.socias .social:hover {
+  background: #444;
+}
+.socias .social:hover a {
+  color: #FFF;
+}
+
+
+
+
+
+
+@media (max-width: 950px) 
+{
+  .conteudo h1 {
+    font-size: 10vh;
+  }
+  footer 
+  {
+    flex-direction: column;
+  }
+  footer .boxs 
+  {
+    width: 100%;
+    text-align: center;
+  }
+  footer .boxs:nth-child(4) {
+    width: 100%;
+  }
+}
